@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&family=Gochi+Hand&family=Schoolbell&family=Short+Stack&display=swap");
+
+body {
+  font-family: "Gochi Hand", cursive;
+}
+
+table,
+th,
+tr,
+td {
+  margin: auto;
+  border: 2px solid gray;
+  border-spacing: 5px;
+  padding: 20px;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+
+th {
+  background-color: #cae1ff;
+  color: white;
+  font-family: "Short Stack", cursive;
+}
+
+.pink:hover {
+  background-color: #ffdee1;
+}
+
+.purple:hover {
+  background-color: #c8d5f6;
+}
+
+table {
+  margin-top: 3%;
+}
+
+.ml9 {
+  position: relative;
+  font-weight: 200;
+  font-size: 4em;
+  text-align: center;
+}
+
+.ml9 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml9 .letter {
+  transform-origin: 50% 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml16 {
+  color: black;
+  background-color: lightblue;
+  margin: 0;
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 800;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
